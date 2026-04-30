@@ -2,19 +2,18 @@
 
 A Flutter plugin that enables dynamic code execution by integrating Cash App's Zipline engine into Flutter applications. Load, execute, and manage Zipline bytecode modules at runtime without app updates.
 
-[![pub package](https://img.shields.io/pub/v/flutter_zipline_plugin.svg)](https://pub.dev/packages/flutter_zipline_plugin)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-GNU-yellow.svg)](LICENSE)
 
 ## Features
 
-✨ **Dynamic Code Loading** - Download and execute Zipline modules at runtime  
-🔒 **Cryptographic Verification** - SHA256 hash verification for all modules  
-📦 **Smart Caching** - Local caching for offline operation and faster loads  
-🔄 **Dependency Resolution** - Automatic topological sorting of module dependencies  
-🚀 **Concurrent Extensions** - Load and run multiple extensions simultaneously  
-📡 **Event Streaming** - Real-time progress updates during loading  
-🛡️ **Sandboxed Execution** - Isolated Zipline engine instances for security  
-⚡ **High Performance** - Optimized for fast function calls and minimal overhead
+**Dynamic Code Loading** - Download and execute Zipline modules at runtime  
+**Cryptographic Verification** - SHA256 hash verification for all modules  
+**Smart Caching** - Local caching for offline operation and faster loads  
+**Dependency Resolution** - Automatic topological sorting of module dependencies  
+**Concurrent Extensions** - Load and run multiple extensions simultaneously  
+**Event Streaming** - Real-time progress updates during loading  
+**Sandboxed Execution** - Isolated Zipline engine instances for security  
+**High Performance** - Optimized for fast function calls and minimal overhead
 
 ## Use Cases
 
@@ -468,7 +467,7 @@ flutter test integration_test/
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -476,19 +475,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Flutter](https://flutter.dev) - The UI framework
 - [OkHttp](https://square.github.io/okhttp/) - HTTP client library
 
-## Support
-
-- 📖 [Documentation](API.md)
-- 💬 [Discussions](https://github.com/yourusername/flutter_zipline_plugin/discussions)
-- 🐛 [Issue Tracker](https://github.com/yourusername/flutter_zipline_plugin/issues)
-- 📧 [Email Support](mailto:support@example.com)
-
 ## Related Projects
 
 - [Soundbound](https://soundbound.app) - Music streaming app using this plugin
 - [Zipline](https://github.com/cashapp/zipline) - Cash App's Zipline engine
 - [QuickJS](https://bellard.org/quickjs/) - JavaScript engine used by Zipline
-
----
-
-Made with ❤️ by the Flutter community
